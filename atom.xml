@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://99727zdy.github.io/"/>
-  <updated>2020-05-05T13:23:08.567Z</updated>
+  <updated>2020-05-05T13:25:09.870Z</updated>
   <id>https://99727zdy.github.io/</id>
   
   <author>
@@ -15,23 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>这是我的第一篇博客</title>
-    <link href="https://99727zdy.github.io/2020/05/05/wo-de-di-yi-pian-wen-zhang/"/>
-    <id>https://99727zdy.github.io/2020/05/05/wo-de-di-yi-pian-wen-zhang/</id>
-    <published>2020-05-04T16:00:00.000Z</published>
-    <updated>2020-05-05T13:23:08.567Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="Markdown" scheme="https://99727zdy.github.io/categories/Markdown/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>Hello Word</title>
@@ -79,6 +62,48 @@
     
     
       <category term="router" scheme="https://99727zdy.github.io/categories/router/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>这是我的第一篇博客</title>
+    <link href="https://99727zdy.github.io/2020/05/05/wo-de-di-yi-pian-wen-zhang/"/>
+    <id>https://99727zdy.github.io/2020/05/05/wo-de-di-yi-pian-wen-zhang/</id>
+    <published>2020-05-04T16:00:00.000Z</published>
+    <updated>2020-05-05T13:23:08.567Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://99727zdy.github.io/categories/Markdown/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>promise基础</title>
+    <link href="https://99727zdy.github.io/2020/05/05/promise-ji-chu/"/>
+    <id>https://99727zdy.github.io/2020/05/05/promise-ji-chu/</id>
+    <published>2020-05-04T16:00:00.000Z</published>
+    <updated>2020-05-05T13:48:19.724Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;promise是异步编程的一种解决方案，解决回调地狱&lt;br&gt;&lt;img src=&quot;https://user-gold-cdn.xitu.io/2020/4/24/171ab1623b70b225?w=538&amp;h=502&amp;f=png&amp;s=105611&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://99727zdy.github.io/categories/Markdown/"/>
     
     
   </entry>

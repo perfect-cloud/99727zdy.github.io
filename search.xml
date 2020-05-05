@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>这是我的第一篇博客</title>
-      <link href="/2020/05/05/wo-de-di-yi-pian-wen-zhang/"/>
-      <url>/2020/05/05/wo-de-di-yi-pian-wen-zhang/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Markdown </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello Word</title>
       <link href="/2020/05/05/hello-world/"/>
       <url>/2020/05/05/hello-world/</url>
@@ -52,6 +33,44 @@
       <categories>
           
           <category> router </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是我的第一篇博客</title>
+      <link href="/2020/05/05/wo-de-di-yi-pian-wen-zhang/"/>
+      <url>/2020/05/05/wo-de-di-yi-pian-wen-zhang/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>promise基础</title>
+      <link href="/2020/05/05/promise-ji-chu/"/>
+      <url>/2020/05/05/promise-ji-chu/</url>
+      
+        <content type="html"><![CDATA[<p>promise是异步编程的一种解决方案，解决回调地狱<br><img src="https://user-gold-cdn.xitu.io/2020/4/24/171ab1623b70b225?w=538&h=502&f=png&s=105611" alt=""><br>下面简单举个例子：定时器异步事件</p><p>运用promise链式调用（链式编程的思想）</p><pre><code>  // 什么情况下会用到Promise?  // 一般情况下是有异步操作时,使用Promise对这个异步操作进行封装  // new -&gt; 构造函数(1.保存了一些状态信息  2.执行传入的函数)  // 在执行传入的回调函数时, 会传入两个参数, resolve, reject.本身又是函数  new Promise((resolve, reject) =&gt; {    setTimeout(() =&gt; {      // 成功的时候调用resolve      // resolve(&#39;Hello World&#39;)      // 失败的时候调用reject      reject(&#39;error message&#39;)    }, 1000)  }).then((data) =&gt; {    // 1.100行的处理代码    console.log(data);  }).catch((err) =&gt; {    console.log(err);  })</code></pre><p>另外一种写法，我们可以看到其实就是箭头函数只有一个参数时括号可以省略哈哈~~</p><pre><code> new Promise((resolve, reject) =&gt; {    setTimeout(() =&gt; {      // resolve(&#39;Hello Vuejs&#39;)      reject(&#39;error message&#39;)    }, 1000)  }).then(data =&gt; {    console.log(data);  }, err =&gt; {    console.log(err);  })</code></pre><hr><p>下面这三种写法意思一样，但是最后一种最简洁</p><p>reject同理，也可以简写，只不过遇到reject的时候跳到.catch()</p><pre><code>.then(res =&gt; {     console.log(res, &#39;第二层的10行处理代码&#39;);     return new Promise(resolve =&gt; {       resolve(res + &#39;222&#39;)     })   })</code></pre><pre><code>.then(res =&gt; {    console.log(res, &#39;第二层的10行处理代码&#39;);    return Promise.resolve(res + &#39;222&#39;)  })</code></pre><p>它内部会对res+’222’进行一个promise的包装，把它放在resolve里面</p><pre><code>.then(res =&gt; {    console.log(res, &#39;第二层的10行处理代码&#39;);    return res + &#39;222&#39;  })</code></pre><p>还有一种方式，可以不用reject，直接手动抛出异常，如下图<br><img src="https://user-gold-cdn.xitu.io/2020/4/24/171ab77b774ed2a6?w=385&h=129&f=png&s=61488" alt=""></p><p>promise的all方法（resove里面可以是数组，字符串，对象）</p><pre><code>Promise.all([    new Promise((resolve, reject) =&gt; {      setTimeout(() =&gt; {        resolve({name: &#39;why&#39;, age: 18})      }, 2000)    }),    new Promise((resolve, reject) =&gt; {      setTimeout(() =&gt; {        resolve({name: &#39;kobe&#39;, age: 19})      }, 1000)    })  ]).then(results =&gt; {    console.log(results);  })</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
           
       </categories>
       
