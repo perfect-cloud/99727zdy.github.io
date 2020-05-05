@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>路由懒加载，嵌套路由和传递参数</title>
+      <link href="/2020/05/05/lu-you-lan-jia-zai-qian-tao-lu-you-he-chuan-di-can-shu/"/>
+      <url>/2020/05/05/lu-you-lan-jia-zai-qian-tao-lu-you-he-chuan-di-can-shu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>通过这个方式，在页面下显示id（是一个符号，自定义可改名）消息<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a01978aa78c07?w=375&h=209&f=png&s=9633" alt=""><br>此时的路由配置如图<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a01a364070afc?w=367&h=166&f=png&s=6248" alt=""></p><h3 id="这个函数功能强大，用来打包js文件"><a href="#这个函数功能强大，用来打包js文件" class="headerlink" title="这个函数功能强大，用来打包js文件"></a>这个函数功能强大，用来打包js文件</h3><p>在bould.js（webpack配置情况）和index.js(vue自动配置情况)里大量应用这个函数<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a02b43879f3ec?w=764&h=148&f=png&s=155861" alt=""></p><p>一开始时js文件夹下有这几个文件  分别表示</p><ul><li>业务代码  底层支持   提供商（第三方）<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a02f52700387e?w=963&h=256&f=png&s=366536" alt=""><h3 id="路由懒加载"><a href="#路由懒加载" class="headerlink" title="路由懒加载"></a>路由懒加载</h3><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a03cb7ffea8cb?w=485&h=148&f=png&s=6171" alt=""></li></ul><p>路由懒加载后后多了三个文件（因为的我加了3个路由子件）<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a03d5cb65b220?w=353&h=180&f=png&s=14544" alt=""></p><h3 id="怎么嵌套路由（创建子路由）"><a href="#怎么嵌套路由（创建子路由）" class="headerlink" title="怎么嵌套路由（创建子路由）"></a>怎么嵌套路由（创建子路由）</h3><ul><li><p>第一步<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a10eb1c6b221e?w=320&h=216&f=png&s=13336" alt=""></p></li><li><p>第二步 配置路由映射关系</p></li></ul><p><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a096eb094c900?w=553&h=338&f=png&s=16044" alt=""></p><ul><li>第三步 配置连接<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a09622e69ad73?w=622&h=312&f=png&s=28239" alt=""></li></ul><p>url格式</p><p><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0ad21eeb280e?w=764&h=160&f=png&s=88909" alt=""></p><p><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0ad9ad49f829?w=388&h=76&f=png&s=37648" alt=""></p><p><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0abbf44ece42?w=779&h=147&f=png&s=98922" alt=""></p><h3 id="传递参数的方式"><a href="#传递参数的方式" class="headerlink" title="传递参数的方式"></a>传递参数的方式</h3><p>query方式  query是个对象<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0b596921805f?w=664&h=40&f=png&s=5275" alt=""></p><p>路由映射配置这样写<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0c00899982a2?w=372&h=131&f=png&s=5555" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> router </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> router </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello Word</title>
       <link href="/2020/05/05/hello-world/"/>
       <url>/2020/05/05/hello-world/</url>
@@ -18,24 +43,11 @@
       </categories>
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>路由懒加载，嵌套路由和传递参数</title>
-      <link href="/2020/05/05/lu-you-lan-jia-zai-qian-tao-lu-you-he-chuan-di-can-shu/"/>
-      <url>/2020/05/05/lu-you-lan-jia-zai-qian-tao-lu-you-he-chuan-di-can-shu/</url>
-      
-        <content type="html"><![CDATA[<h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>通过这个方式，在页面下显示id（是一个符号，自定义可改名）消息<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a01978aa78c07?w=375&h=209&f=png&s=9633" alt=""><br>此时的路由配置如图<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a01a364070afc?w=367&h=166&f=png&s=6248" alt=""></p><h3 id="这个函数功能强大，用来打包js文件"><a href="#这个函数功能强大，用来打包js文件" class="headerlink" title="这个函数功能强大，用来打包js文件"></a>这个函数功能强大，用来打包js文件</h3><p>在bould.js（webpack配置情况）和index.js(vue自动配置情况)里大量应用这个函数<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a02b43879f3ec?w=764&h=148&f=png&s=155861" alt=""></p><p>一开始时js文件夹下有这几个文件  分别表示</p><ul><li>业务代码  底层支持   提供商（第三方）<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a02f52700387e?w=963&h=256&f=png&s=366536" alt=""><h3 id="路由懒加载"><a href="#路由懒加载" class="headerlink" title="路由懒加载"></a>路由懒加载</h3><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a03cb7ffea8cb?w=485&h=148&f=png&s=6171" alt=""></li></ul><p>路由懒加载后后多了三个文件（因为的我加了3个路由子件）<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a03d5cb65b220?w=353&h=180&f=png&s=14544" alt=""></p><h3 id="怎么嵌套路由（创建子路由）"><a href="#怎么嵌套路由（创建子路由）" class="headerlink" title="怎么嵌套路由（创建子路由）"></a>怎么嵌套路由（创建子路由）</h3><ul><li><p>第一步<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a10eb1c6b221e?w=320&h=216&f=png&s=13336" alt=""></p></li><li><p>第二步 配置路由映射关系</p></li></ul><p><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a096eb094c900?w=553&h=338&f=png&s=16044" alt=""></p><ul><li>第三步 配置连接<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a09622e69ad73?w=622&h=312&f=png&s=28239" alt=""></li></ul><p>url格式</p><p><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0ad21eeb280e?w=764&h=160&f=png&s=88909" alt=""></p><p><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0ad9ad49f829?w=388&h=76&f=png&s=37648" alt=""></p><p><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0abbf44ece42?w=779&h=147&f=png&s=98922" alt=""></p><h3 id="传递参数的方式"><a href="#传递参数的方式" class="headerlink" title="传递参数的方式"></a>传递参数的方式</h3><p>query方式  query是个对象<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0b596921805f?w=664&h=40&f=png&s=5275" alt=""></p><p>路由映射配置这样写<br><img src="https://user-gold-cdn.xitu.io/2020/4/22/171a0c00899982a2?w=372&h=131&f=png&s=5555" alt=""></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> router </category>
-          
-      </categories>
-      
+        <tags>
+            
+            <tag> nothing </tag>
+            
+        </tags>
       
     </entry>
     
@@ -51,10 +63,16 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> 个人 </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 个人 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -70,10 +88,16 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> promise </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> promise </tag>
+            
+        </tags>
       
     </entry>
     

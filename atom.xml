@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://99727zdy.github.io/"/>
-  <updated>2020-05-05T13:25:09.870Z</updated>
+  <updated>2020-05-05T13:55:39.474Z</updated>
   <id>https://99727zdy.github.io/</id>
   
   <author>
@@ -17,36 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello Word</title>
-    <link href="https://99727zdy.github.io/2020/05/05/hello-world/"/>
-    <id>https://99727zdy.github.io/2020/05/05/hello-world/</id>
-    <published>2020-05-04T16:00:00.000Z</published>
-    <updated>2020-05-05T13:25:09.870Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="官方" scheme="https://99727zdy.github.io/categories/%E5%AE%98%E6%96%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>路由懒加载，嵌套路由和传递参数</title>
     <link href="https://99727zdy.github.io/2020/05/05/lu-you-lan-jia-zai-qian-tao-lu-you-he-chuan-di-can-shu/"/>
     <id>https://99727zdy.github.io/2020/05/05/lu-you-lan-jia-zai-qian-tao-lu-you-he-chuan-di-can-shu/</id>
     <published>2020-05-04T16:00:00.000Z</published>
-    <updated>2020-05-05T13:22:45.513Z</updated>
+    <updated>2020-05-05T13:55:39.474Z</updated>
     
     <summary type="html">
     
@@ -64,6 +39,35 @@
       <category term="router" scheme="https://99727zdy.github.io/categories/router/"/>
     
     
+      <category term="router" scheme="https://99727zdy.github.io/tags/router/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Word</title>
+    <link href="https://99727zdy.github.io/2020/05/05/hello-world/"/>
+    <id>https://99727zdy.github.io/2020/05/05/hello-world/</id>
+    <published>2020-05-04T16:00:00.000Z</published>
+    <updated>2020-05-05T13:56:03.675Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="官方" scheme="https://99727zdy.github.io/categories/%E5%AE%98%E6%96%B9/"/>
+    
+    
+      <category term="nothing" scheme="https://99727zdy.github.io/tags/nothing/"/>
+    
   </entry>
   
   <entry>
@@ -71,15 +75,17 @@
     <link href="https://99727zdy.github.io/2020/05/05/wo-de-di-yi-pian-wen-zhang/"/>
     <id>https://99727zdy.github.io/2020/05/05/wo-de-di-yi-pian-wen-zhang/</id>
     <published>2020-05-04T16:00:00.000Z</published>
-    <updated>2020-05-05T13:23:08.567Z</updated>
+    <updated>2020-05-05T13:57:53.173Z</updated>
     
     <summary type="html">
     
     </summary>
     
     
-      <category term="Markdown" scheme="https://99727zdy.github.io/categories/Markdown/"/>
+      <category term="个人" scheme="https://99727zdy.github.io/categories/%E4%B8%AA%E4%BA%BA/"/>
     
+    
+      <category term="个人" scheme="https://99727zdy.github.io/tags/%E4%B8%AA%E4%BA%BA/"/>
     
   </entry>
   
@@ -88,7 +94,7 @@
     <link href="https://99727zdy.github.io/2020/05/05/promise-ji-chu/"/>
     <id>https://99727zdy.github.io/2020/05/05/promise-ji-chu/</id>
     <published>2020-05-04T16:00:00.000Z</published>
-    <updated>2020-05-05T13:48:19.724Z</updated>
+    <updated>2020-05-05T13:57:30.209Z</updated>
     
     <summary type="html">
     
@@ -103,8 +109,10 @@
     </summary>
     
     
-      <category term="Markdown" scheme="https://99727zdy.github.io/categories/Markdown/"/>
+      <category term="promise" scheme="https://99727zdy.github.io/categories/promise/"/>
     
+    
+      <category term="promise" scheme="https://99727zdy.github.io/tags/promise/"/>
     
   </entry>
   
